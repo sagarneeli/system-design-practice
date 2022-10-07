@@ -39,4 +39,13 @@ It's the foundation of all modern software
 - 4xx - an error caused by the client (bad request input, bad syntax, 401 Unauthorized)
 - 5xx - an unexpected exception occured on the server side (500 server error)
 
+#### Decoding HTTP Headers
+- Content Negotiation - Accept and Accept Encoding (used in content compression)
+- CORS - to control Cross Origins Resource Sharing, access to resources from a different domain
+- Caching - used by the caching algorithms: Age, Cache-Control, Expires
+- Information about the body - Content-Type, Content-Length, Content-Encoding used as an answer to Accept
+- Authentication - the authorization header which usually contains the credentials
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/5379043/194437427-9b9a6085-c550-42d9-86ff-3cd0183bd30d.png">
+
 
