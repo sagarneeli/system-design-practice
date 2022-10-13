@@ -29,3 +29,8 @@ Horizontal Partitioning is also known as Data Sharding.
 Vertical Partitioning: In this scheme, we divide our data to store tables related to a specific feature in their own server.
 
 Directory-Based Partitioning: A loosely coupled approach to work around issues mentioned in the above schemes is to create a lookup service that knows your current partitioning scheme and abstracts it away from the DB access code
+
+
+Simply saying, an index is a data structure that can be perceived as a table of contents that points us to the location where actual data lives. So when we create an index on a column of a table, we store that column and a pointer to the whole row in the index
+
+An index can dramatically speed up data retrieval but may itself be large due to the additional keys, which slow down data insertion & update
